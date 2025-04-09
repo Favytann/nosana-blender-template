@@ -1,0 +1,5 @@
+{
+  "name": "Nosana Dev",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:18",
+  "postCreateCommand": "npm install -g @nosana/cli"
+}
