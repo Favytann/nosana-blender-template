@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "name": "Blender Render Job",
+  "description": "Render a .blend file using Blender in a Nosana CI pipeline.",
+  "image": "blender:3.6.0",
+  "script": [
+    "mkdir -p render",
+    "blender -b sample.blend -o //render/frame_##### -F PNG -f 1"
+  ],
+  "artifacts": {
+    "paths": [
+      "render/"
+    ]
+  }
+}
