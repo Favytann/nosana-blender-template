@@ -1,0 +1,7 @@
+{
+  "title": "Blender Render",
+  "description": "Render a .blend file using Blender in a Nosana Job.",
+  "tags": ["GPU", "Render", "3D", "Blender"],
+  "icon": "🌀",
+  "category": "Creative"
+}
